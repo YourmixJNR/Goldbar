@@ -8,3 +8,11 @@ toggleNav.addEventListener('change', function() {
     navbarBox.classList.remove('open');
   }
 });
+
+const links = document.querySelectorAll('.navbar-box a');
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('menu-bar').checked = false;
+  });
+});

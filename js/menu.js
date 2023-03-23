@@ -4,8 +4,11 @@ const navbarBox = document.querySelector('.navbar-box');
 toggleNav.addEventListener('change', function() {
   if (this.checked) {
     navbarBox.classList.add('open');
+    console.log("hi")
   } else {
     navbarBox.classList.remove('open');
+    navbarBox.classList.add('close')
+    console.log("hello")
   }
 });
 

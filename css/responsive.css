@@ -171,7 +171,7 @@
     .navbar-box.open {
         transform: scaleY(0);
         opacity: 0;
-        transition: .2s linear;
+        transition: .5s linear;
         }
 
     .navbar-box.close {

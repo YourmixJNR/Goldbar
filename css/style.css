@@ -63,6 +63,38 @@ body a:focus {
     outline: none;
 }
 
+/*-- Reused Component --*/
+
+h3.w3title{
+    font-family: var(--ff-poppins);
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--dark);
+}
+
+.properties,
+.services,
+.about,
+.testimonials,
+.news{
+    padding:5em 0;
+}
+
+.info{
+    position: absolute;
+    top: 1rem; right: 0;
+    display: flex;
+    margin: 1em 2em;
+    padding: .5rem 1.5rem;
+    background: var(--primary);
+}
+
+.info.sale { background: var(--primary); }
+
+.info.rent { background: hsl(89, 72%, 45%); }
+
 /*-- Header --*/
 
 header {
@@ -413,17 +445,147 @@ h2.tittle {
     line-height: 2em;
 }
 
-/*-- Search detail starts --*/
+/*-- Search detail ends --*/
+
+/*-- Feature Properties starts --*/
+
+.properties-con {
+    margin-top: 4em;
+}
+
+.properties .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.properties .box-container .main-box{
+    flex: 1 1 30rem;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background: var(--white);
+}
+
+.properties .box-container .main-box .image-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 24rem;
+}
+
+.properties .box-container .main-box .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.properties .box-container .main-box:hover .image-container img{
+    transform: scale(1.1);
+}
+
+.properties .box-container .main-box .image-container .info h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:var(--white);
+}
+
+.properties .box-container .main-box .image-container .location-info{
+    display: flex;
+    position: absolute;
+    bottom: 1rem; left: 0;
+}
+
+.properties .box-container .main-box .image-container .location-info i{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--white);
+    background: rgba(0,0,0,.3);
+    padding: 0.5em;
+    
+}
+
+.properties .box-container .main-box .image-container .location-info i p{
+    display: flex;
+    margin-left: 0.5em;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.properties .box-container .main-box .content{
+    padding: 1em 1.5em;
+}
+
+.properties .box-container .main-box .content .content-details{
+    margin-bottom: 1.3em;
+}
+
+.properties .box-container .main-box .content .content-details a {
+    text-decoration: none;
+}
+
+.properties .box-container .main-box .content .content-details a h3{
+    margin-bottom: 0.8em;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.properties .box-container .main-box .content .content-details a h3:hover{
+    color: var(--primary);
+}
+
+.properties .box-container .main-box .content .content-details p{
+    font-family: var(--ff-nunito-sans);
+    font-size: 1.5rem;
+    color:#666;
+    line-height: 1.5;
+}
+
+.properties .box-container .main-box .content .more-details{
+    display: flex;
+    margin-bottom: 1.2em;
+}
+
+.properties .box-container .main-box .content .more-details h3{
+    flex:1;
+    padding: 1rem;
+    font-family: var(--ff-nunito-sans);
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #666;
+    border:.1rem solid rgba(0,0,0,.1);
+
+}
+
+.properties .box-container .main-box .content .more-details h3 span{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.properties .box-container .main-box .content .more-details h3 i{
+    color: #a09e9e;
+    padding-left: .5rem;
+    padding-bottom: 1rem;
+}
+
+.properties .box-container .main-box .content .price{
+    display: flex;
+}
+
+.properties .box-container .main-box .content .price h3{
+    color:var(--primary);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/*-- Feature Properties ends --*/
 
 /*-- services --*/
-.services,.about,.testimonials,.news{
-	padding:5em 0;
-}
-h3.w3title{
-    font-size: 3.8em;
-    text-align: center;
-    color: #f44336;
-}
 p.wthree-ttext{
     font-size: 1em;
     text-align: center;

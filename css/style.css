@@ -69,7 +69,7 @@ h3.w3title{
     font-family: var(--ff-poppins);
     font-size: 4rem;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     color: var(--dark);
 }
@@ -94,6 +94,15 @@ h3.w3title{
 .info.sale { background: var(--primary); }
 
 .info.rent { background: hsl(89, 72%, 45%); }
+
+.services {
+    background: var(--secondary);
+}
+
+/* Change this later */
+.about,.blog {
+    background: #eeeeee;
+} 
 
 /*-- Header --*/
 
@@ -587,9 +596,10 @@ h2.tittle {
 
 /*-- services --*/
 p.wthree-ttext{
-    font-size: 1em;
+    font-family: var(--ff-nunito-sans);
+    font-size: 2rem;
     text-align: center;
-    color: #777;
+    color: var(--dark);
     line-height: 1.8em;
     width: 50%;
     margin: 1em auto 0;
@@ -601,11 +611,11 @@ p.wthree-ttext{
 } 
 .services-grids .icon-holder {
     display: inline-block;
-    color: #fff;
+    color: var(--primary);
     font-size: 1.8em;
     width: 76px;
     height: 42px;
-    background: #9E9E9E;
+    background: var(--white);
     position: relative;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -614,15 +624,23 @@ p.wthree-ttext{
     transition: all 0.5s;
     line-height: 1.8em;
 }
-.services-grids h4 { 
-    color: #02B875;
-    font-size: 1.6em; 
+
+
+
+.services-grids h4 {
+    font-family: var(--ff-poppins);
+    font-size: 2rem;
+    font-weight: 600; 
+    text-transform: capitalize;
 	margin:1.5em 0 .6em;
+    color: var(--dark);
 }
 .services-grids p {
+    font-family: var(--ff-nunito-sans);
+    font-size: 1.6rem;
     width: 80%;
     margin: 0 auto; 
-    color: #9e9e9e;
+    color: var(--dark);
 } 
 .hexagon:before {
     content: "";
@@ -633,7 +651,7 @@ p.wthree-ttext{
     height: 0;
     border-left: 38px solid transparent;
     border-right: 38px solid transparent;
-    border-bottom: 20px solid #9E9E9E;
+    border-bottom: 20px solid var(--white);
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -649,27 +667,22 @@ p.wthree-ttext{
 	height: 0;
 	border-left: 38px solid transparent;
 	border-right: 38px solid transparent;
-	border-top: 20px solid #9E9E9E;
+	border-top: 20px solid var(--white);
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s; 
 }
-.services-grids:hover .icon-holder { 
-	background: #02B875;
-} 
+
 .services-grids:hover .hexagon:before { 
-	border-bottom-color: #02B875;
+	border-bottom-color: var(--primary);
 } 
 .services-grids:hover .hexagon:after { 
-	border-top-color: #02B875;
+	border-top-color: var(--primary);
 } 
 /*-- //services --*/
 /*-- about --*/
-.about,.blog {
-    background: #eeeeee;
-} 
 .about-left {
     padding-right: 5em;
 }

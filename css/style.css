@@ -785,6 +785,7 @@ p.wthree-ttext {
 .blog .w3-agilep-p {
     font-family: var(--ff-nunito-sans);
     font-size: 1.5rem;
+    line-height: 1.5;
     color: #666;
     margin: 0 0 0.6em;
 }

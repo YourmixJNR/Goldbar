@@ -38,10 +38,6 @@
         font-size: 1.5em; 
     }
 
-    .agileits-img .wthree-pcatn { 
-        height: 32%;
-    }
-
     .blog-w3lgrids {
         margin-top: 3em;
     }
@@ -96,14 +92,6 @@
     .services-grids { 
         padding: .5em;
         margin-top: 5em;
-    }
-
-    .agileits-img .wthree-pcatn h4 {
-        font-size: 1.8em; 
-    }
-
-    .agileits-img .wthree-pcatn {
-        height: 40%;
     }
 
     .flexslider {
@@ -262,10 +250,6 @@
         font-size: 3.4rem;
     }
 
-    .simplefilter li { 
-        font-size: 0.9em;
-    }
-
     .news-grid-left:nth-child(1) {
         margin: 3em 0 1em 0;
     }
@@ -290,9 +274,6 @@
         font-size: 0.9em; 
     }
 
-    .agileits-img .wthree-pcatn {
-        height: 29%;
-    }
     .modal-dialog {
         margin: 3em auto; 
         width: 90%;
@@ -355,10 +336,6 @@
     .place-grid:nth-child(4) {
         margin-top: 2.4em;
     }
-
-    .agileits-img .wthree-pcatn {
-        height: 35%;
-    }
 }
 
 @media(max-width:568px){
@@ -392,27 +369,6 @@
 
     .services-grids {
         margin-top: 3em;
-    }
-
-    ul.simplefilter { 
-        margin: 3em 0 1em;
-    }
-
-    .simplefilter li { 
-        padding: 0.8em 1.4em; 
-    }
-
-    .filtr-item {
-        padding: 0.5em;
-    }
-
-    .agileits-img .wthree-pcatn h4 {
-        font-size: 1.6em;
-        letter-spacing: 1px;
-    }
-
-    .agileits-img .wthree-pcatn {
-        height: 40%;
     }
 
     .blog-w3lgrids {
@@ -467,12 +423,6 @@
     .w3-agileaddress span.fa {
         font-size: 1em; 
         margin-bottom: 0.3em; 
-    }
-
-    .simplefilter li {
-        font-size: 0.8em;
-        margin: 0 0.1em;
-        padding: 0.8em 1.2em;
     }
 
     h3.w3title {
@@ -546,19 +496,6 @@
         width: 100%;
     }
 
-    .simplefilter li {
-        padding: 0.7em 0.8em;
-        font-size: 0.8em;
-    }
-
-    .filtr-item {
-        padding: 0.5em;
-        width: 100%;
-        float: none;
-    }
-    .agileits-img .wthree-pcatn {
-        height: 27%;
-    }
     .blog-w3lgrids { 
         padding: 0;
     }
@@ -587,10 +524,6 @@
         font-size: 1.2em;
     }
 
-    ul.simplefilter {
-        margin: 1em 0;
-    }
-
     .blog-w3imgtext {
         padding: 0 1em; 
     }
@@ -601,11 +534,6 @@
 }
 
 @media(max-width:375px){
-
-    .simplefilter li {
-        padding: 0.7em 2em; 
-        margin-top: 1em;
-    }
 
     .flexslider {
         width: 100%;
@@ -669,10 +597,6 @@
 
     .modal-dialog {
         margin: 1em auto; 
-    }
-
-    .agileits-img .wthree-pcatn {
-        height: 31%;
     }
 
     #swipebox-title { 

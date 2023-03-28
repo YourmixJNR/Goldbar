@@ -46,9 +46,6 @@
         width: 63%; 
     }
 
-    .map iframe { 
-        min-height: 300px; 
-    }
 }
 
 @media(max-width:991px){
@@ -186,10 +183,6 @@
 
     .modal-dialog {
         margin: 3em auto 0;
-    }
-
-    .map iframe {
-        min-height: 250px;
     }
     
     .footer {
@@ -340,16 +333,6 @@
         padding: 0.6em 4em;
     }
 
-    .address-grids {
-        padding: 0;
-        float: none;
-        width: 100%;
-    }
-
-    .address-grids:nth-child(2){
-        margin:1em 0;
-    }
-
     p {
         font-size: 0.9em; 
     }
@@ -369,9 +352,6 @@
         font-size: 3.4rem; 
     }
 
-    .map iframe {
-        min-height: 200px;
-    }
 }
 
 @media(max-width:384px){

@@ -42,10 +42,6 @@
         margin-top: 3em;
     }
 
-    .testimonials-grid {
-        margin-top: 3em;
-    }
-
     .flexslider {
         width: 63%; 
     }
@@ -77,7 +73,7 @@
         margin-top: 0.5em; 
     }
 
-    .services, .about, .testimonials, .news {
+    .services {
         padding: 4em 0;
     }
 
@@ -97,34 +93,7 @@
     .flexslider {
         width: 85%;
     }
-
-    .testimonials-grid {
-        margin-top: 2em;
-    }
-
-    .testimonials-grid h5 { 
-        letter-spacing: 1px;
-    }
-    .news-grid-left {
-        padding: 0 6em;
-    }
-
-    .date-info { 
-        padding-right: 0;
-    }
-
-    .date { 
-        width: 110px;
-        height: 110px; 
-    }
-    .date p { 
-        font-size: 2.6em; 
-    }
-
-    .date-info p {
-        margin: 0.6em 0 0;
-    }
-
+    
     .contact-w3ls-row {
         width: 85%;
         margin: 3em auto 0;
@@ -249,11 +218,6 @@
     h3.w3title {
         font-size: 3.4rem;
     }
-
-    .news-grid-left:nth-child(1) {
-        margin: 3em 0 1em 0;
-    }
-
 }
 
 @media(max-width:736px){
@@ -279,10 +243,6 @@
         width: 90%;
     }
 
-    .news-grid-left {
-        padding: 0 3em;
-    }
-
     .contact textarea { 
         min-height: 9em; 
     }
@@ -298,7 +258,7 @@
         margin-top: 2.9em;
     }
 
-    .services, .about, .testimonials, .news {
+    .services {
         padding: 3.5em 0;
     }
 
@@ -310,9 +270,6 @@
         margin-bottom: 1em; 
     }
 
-    .w3-agileaddress {
-        padding: 2.5em 0; 
-    }
 }
 
 @media(max-width:600px){
@@ -340,10 +297,6 @@
 
 @media(max-width:568px){
 
-    .news-grid-left {
-        padding: 0 1em;
-    }
-
     p.wthree-ttext {
         width: 80%;
     }
@@ -355,7 +308,7 @@
         margin-top: 2em;
     }
 
-    .services, .about, .testimonials, .news {
+    .services {
         padding: 3em 0;
     }
 
@@ -375,27 +328,8 @@
         margin-top: 2em;
     }
 
-    .testimonials-grid p { 
-        font-size: 1em;
-    }
-
     .flexslider {
         width: 90%;
-    }
-
-    .news-grid-left {
-        padding: 0 0em;
-    }
-
-    .date { 
-        float: none;
-        margin: 0 auto;
-    }
-
-    .date-info {
-        padding: 1em 0 0;
-        width: 100%;
-        text-align: center;
     }
 
     .contact-w3ls-row {
@@ -418,11 +352,6 @@
 
     p {
         font-size: 0.9em; 
-    }
-
-    .w3-agileaddress span.fa {
-        font-size: 1em; 
-        margin-bottom: 0.3em; 
     }
 
     h3.w3title {
@@ -476,7 +405,7 @@
         margin-top: 3.2em;
     }
 
-    .services, .about, .testimonials, .news {
+    .services {
         padding: 2.5em 0;
     }
 
@@ -498,14 +427,6 @@
 
     .blog-w3lgrids { 
         padding: 0;
-    }
-
-    .testimonials-grid p {
-        font-size: 0.9em;
-    }
-
-    .testimonials-grid {
-        margin-top: 1em;
     }
 
     .contact input[type="text"],.contact textarea {
@@ -613,9 +534,5 @@
 
     a.wthree-btn.w3btn2.w3btn2a {
         padding: .5em 1.2em; 
-    }
-
-    .testimonials-grid h5 {
-        font-size: 1.2em; 
     }
 }

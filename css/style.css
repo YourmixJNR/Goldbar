@@ -75,9 +75,7 @@ h3.w3title{
 }
 
 .properties,
-.services,
-.testimonials,
-.news{
+.services {
     padding:5em 0;
 }
 
@@ -796,185 +794,91 @@ p.wthree-ttext {
 
 /* Our blog ends */
 
-/*-- testimonials --*/
-.testimonials { 
-    background: url(../images/slid.jpg) no-repeat 0px 0px fixed;
-    background-size: cover;
-}
-.flexslider {
-    width: 60%;
-    margin: 0 auto;
-}
-.testimonials-grid {
-    margin-top: 4em;
-}
-.testimonials-grid p {
-    color: #fff;
-    text-align: center;
-    margin: 1.5em 0;
-    font-size: 1.1em;
-} 
-.testimonials-grid h5 {
-    font-size: 1.5em;
-    color: #f44336;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-.testimonials-grid h5 span {
-    color: rgba(255, 255, 255, 0.92);
-    font-size: 0.8em;
-    margin-left: .5em;
-    font-weight: 100;
-}
-/*-- //testimonials --*/
-/*-- news --*/ 
-.news-grid-left { 
-    padding: 0 15em;
-}
-.news-grid-left:nth-child(1) {
-    margin: 3em 0 2em 0;
-}
-.date{
-    background: #2B2B2B;
-    width: 125px;
-    height: 125px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%; 
-    border-radius: 50%;
-	-webkit-transition:.5s all;
-	-moz-transition:.5s all; 
-	transition:.5s all;
-}
-.date p{
-    color: #FFF;
-    font-size: 3em;
-    text-align: center;
-    margin: 0;
-    padding: .3em 0 0 0;
-}
-.date span {
-    display: block;
-    line-height: 0.6em;
-    color: #fff;
-    font-size: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: -3px;
-    font-weight: 300;
-    letter-spacing: 4px;
-}
-.date-info {
-    padding-left: 2em;
-}
-.date-info h5 {
-    font-size: 1.5em;
-    font-weight: 300;
-}
-.date-info h5 a{
-	color:#02b875; 
-	text-decoration:none;
-}
-.date-info a:hover{
-    color: #f44336;
-}
-.date-info p {
-    margin: 1em 0 0;
-}
-.news-grid-left:hover .date {
-    background: #02b875;
-}
-/*-- //news --*/ 
-/*-- contact --*/
-.contact p.wthree-ttext {
-    color: #fff;
-}
+/*-- Contact starts --*/
+
 .contact-w3ls-row {
     width: 70%;
     margin: 4em auto 0;
-} 
+}
+
 .contact input[type="text"] {
     width: 48.5%;
-    color: #fff;
-    float: left;
-    background: none;
-    outline: none;
-    font-size: 1em;
-    padding: .7em 1em;
+    padding: 1em;
     margin-bottom: 1.5em;
-    border: solid 1px #fff;
+    float: left;
+    font-family: var(--ff-nunito-sans);
+    font-size: 1em;
+    color: var(--dark);
+    background: var(--white);
+    outline: none;
+    border: solid 1px var(--light);
     -webkit-appearance: none;
     display: inline-block;
 }
+
 .contact input.email {
     float: right;
-} 
+}
+
 .contact textarea {
-    resize: none;
     width: 100%;
-    background: none;
-    color: #fff;
+    padding: .7em .8em;
+    font-family: var(--ff-nunito-sans);
     font-size: 1em;
+    resize: none;
+    color: var(--dark);
+    background: var(--white);
     outline: none;
-    padding: .6em .8em;
-    border: solid 1px #fff;
+    border: solid 1px var(--light);
     min-height: 12em;
     -webkit-appearance: none;
 }
+
 .contact input[type="submit"] {
     outline: none;
-    color: #fff;
+    color: var(--white);
     padding: 0.8em 4em;
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #02b875;
-	border: 2px solid #02b875; 
+    background: var(--primary);
+	border: none; 
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
     -moz-transition: 0.5s all;
     width: 100%;
 }
+
 .contact input[type="submit"]:hover {
-    background: none;
-    color: #02b875;
-    border-color: #02b875;
+    background: var(--dark);
+    color: var(--white);
+    border-color: none;
 }
+
 ::-webkit-input-placeholder {
-	color:#fff !important;
+	color: var(--dark) !important;
 }
+
 :-moz-placeholder { /* Firefox 18- */
-	color:#fff !important;
+	color:var(--dark) !important;
 }
+
 ::-moz-placeholder {  /* Firefox 19+ */
-	color:#fff !important;
+	color:var(--dark) !important;
 }
+
 :-ms-input-placeholder {  
-	color:#fff !important;
+	color:var(--dark) !important;
 }
+
 .map iframe {
     width: 100%;
     min-height: 400px;
     border: none;
 }
-.w3-agileaddress {
-    padding: 3em 0;
-    text-align: center;
-}
-.w3-agileaddress span.fa {
-    font-size: 1.2em;
-    color: #02b875;
-    margin-bottom: 0.5em;
-    border: 1px solid;
-    padding: .6em 1em;
-}
-.address-grids p a{
-	color: #777;
-}
-.address-grids p a:hover{
-	color: #F44336;
-}
-/*-- //contact --*/ 
+
+/*-- Contact starts --*/
+
 /*-- footer --*/
 .footer {
     padding: 3em 0;

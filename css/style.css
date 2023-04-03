@@ -75,8 +75,8 @@ h3.w3title{
 }
 
 .properties,
-.services {
-    padding:5em 0;
+.services, .footer {
+    padding: 5em 0;
 }
 
 .info{
@@ -522,11 +522,9 @@ h2.tittle {
     color: var(--white);
     background: rgba(0,0,0,.3);
     padding: 0.5em;
-    
 }
 
 .properties .box-container .main-box .image-container .location-info i p{
-    display: flex;
     margin-left: 0.5em;
     font-size: 1.5rem;
     font-weight: 400;
@@ -572,7 +570,7 @@ h2.tittle {
 }
 
 .properties .box-container .main-box .content .more-details h3 {
-    flex:1;
+    flex: 1;
     padding: 1rem;
     font-family: var(--ff-nunito-sans);
     font-weight: 400;
@@ -871,7 +869,137 @@ p.wthree-ttext {
 	color:var(--dark) !important;
 }
 
-/*-- Contact ends --*/  
+/*-- Contact ends --*/
+
+/* -- Footer starts **/
+
+.footer {
+    background: var(--dark);
+}
+
+.footer a {
+    color: var(--white);
+}
+
+.footer .footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.footer .footer-box .footer-section {
+    flex: 1;
+    padding: 25px;
+}
+
+.footer .footer-box .brand {
+    flex: 1 1 15em;
+}
+
+.footer-box .brand .logo {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.footer-box .brand .logo span {
+    color: #d4af37;
+}
+
+.footer-box .brand .section-text {
+    font-family: var(--ff-nunito-sans);
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: var(--white);
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+    max-width: 33ch;
+}
+
+.footer-box .brand .contact-list {
+    display: grid;
+    gap: 1em;
+    margin-bottom: 2.5em;
+}
+
+.footer-box .brand .contact-list .contact-link {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.7em;
+    text-decoration: none;
+}
+
+.footer-box .brand .contact-list .contact-link i { 
+    font-size: 2rem;
+}
+
+.footer-box .brand .contact-list .contact-link span {
+    font-family: var(--ff-nunito-sans);
+    font-size: 1.6rem;
+    color: var(--light); 
+}
+
+
+.footer-box .brand .contact-list .contact-link:is(:hover, :focus) span {
+    color: var(--secondary);
+    text-decoration: none; 
+}
+
+.footer-box .brand .social-list {
+    display: flex;
+    align-items: center;
+    gap: 1.3em;
+}
+
+.footer-box .brand .social-list i {
+    font-size: 2.5rem;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+
+.footer-box .brand .social-list i:hover {
+    color: var(--secondary);
+}
+
+.footer .footer-box .footer-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.footer .footer-box .company ul a,
+.footer .footer-box .links ul a {
+    display: inline-block;
+    font-family: var(--ff-nunito-sans);
+    font-size: 2rem;
+    text-decoration: none;
+    margin-bottom: 1em;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all
+}
+
+.footer .footer-box .company ul a:hover,
+.footer .footer-box .links ul a:hover {
+    color: var(--secondary);
+}
+
+.footer .footer-bottom {
+    position: absolute;
+    left: 0; bottom: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background: #414141;
+    height: 4em;
+    width: 100%;
+}
+
+.footer .footer-bottom p {
+    font-family: var(--ff-nunito-sans);
+    font-size: 1.7rem;
+    color: var(--white);
+}
 
 /*-- Modal about starts --*/
 

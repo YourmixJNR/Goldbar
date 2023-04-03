@@ -468,11 +468,7 @@
 
     .footer .footer-box .company {
         flex: 1 1 40em;
-        margin-bottom: -1.8em;
-    }
-
-    .footer .footer-box .links {
-        margin-bottom: 0.3em;
+        margin-bottom: -1.6em;
     }
 
 }

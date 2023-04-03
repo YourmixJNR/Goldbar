@@ -35,7 +35,8 @@
 	<!-- Responsive style -->
 	<link href="css/responsive.css" rel="stylesheet" /> 
 	<!-- js -->
-	<script src="js/jquery-2.2.3.min.js"></script>  
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/search.js"></script> 
 </head>
 
 <body>
@@ -89,11 +90,11 @@
 			 
 			<div class="place-grids">
 
-				<form action="#" method="post" class="form-box">
+				<form id="search-form" action="#" method="get" class="form-box">
 
 					<div class="col-md-2 col-xs-4 place-grid">
 						<h5>Select City</h5>
-						<select class="sel" required="">
+						<select id="city-select" class="sel" required="">
 							<option value="">All Cities</option>
 							<option value="">Akure</option>
 							<option value="">Abuja</option>
@@ -105,7 +106,7 @@
 
 					<div class="col-md-2 col-xs-4 place-grid">
 						<h5>Beds</h5>
-						<select class="sel" required="">
+						<select id="beds-select" class="sel" required="">
 							<option value="">Any</option>
 							<option value="">1</option>
 							<option value="">2</option>
@@ -117,7 +118,7 @@
 
 					<div class="col-md-2 col-xs-4 place-grid">
 						<h5>Baths</h5>
-						<select class="sel" required="">
+						<select id="baths-select" class="sel" required="">
 							<option value="">Any</option>
 							<option value="">1</option>
 							<option value="">2</option>

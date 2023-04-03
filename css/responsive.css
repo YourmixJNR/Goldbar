@@ -46,6 +46,15 @@
         width: 63%; 
     }
 
+    .footer .footer-box .footer-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .footer .footer-box .company ul a,
+    .footer .footer-box .links ul a {
+    font-size: 1.7rem;
+    }
+
 }
 
 @media(max-width:991px){
@@ -161,6 +170,7 @@
     h3.w3title {
         font-size: 3.5rem; 
     }
+
 }
 
 @media(max-width:800px){
@@ -211,6 +221,10 @@
     h3.w3title {
         font-size: 3.4rem;
     }
+
+    .footer .footer-box .footer-section h2 {
+        font-size: 2.4rem;
+    }
 }
 
 @media(max-width:736px){
@@ -238,6 +252,14 @@
 
     .contact textarea { 
         min-height: 9em; 
+    }
+
+    .footer-box .brand .section-text {
+        max-width: 40ch;
+    }
+
+    .footer .footer-box .brand {
+        flex: 1 1 40em;
     }
 }
 
@@ -286,12 +308,22 @@
     .place-grid:nth-child(4) {
         margin-top: 2.4em;
     }
+
+    .footer-link-box {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
 }
 
 @media(max-width:568px){
 
     p.wthree-ttext {
         width: 80%;
+    }
+
+    .footer .footer-bottom p {
+        font-size: 1.5rem;
     }
 }
 
@@ -340,6 +372,7 @@
     h3.w3title {
         font-size: 2.8rem;
     }
+
 }
 
 @media(max-width:414px){
@@ -432,6 +465,12 @@
     .contact-w3ls-row {
         width: 100%;
     }
+
+    .footer .footer-box .company {
+        flex: 1 1 40em;
+        margin-bottom: -1.6em;
+    }
+
 }
 
 @media(max-width:375px){
@@ -515,4 +554,9 @@
     a.wthree-btn.w3btn2.w3btn2a {
         padding: .5em 1.2em; 
     }
+
+    .footer .footer-box .footer-section h2 {
+        font-size: 2rem;
+    }
+
 }

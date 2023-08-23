@@ -1,2 +1,1 @@
-# Goldbar
-Goldbar Real Estate
+The Goldbar Real Estate Website project is aimed at creating a platform where users can conveniently search for available properties and connect with their designated real estate agents. The website provides an intuitive interface that empowers users to explore real estate offerings and initiate communication with agents to facilitate property transactions.
